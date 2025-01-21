@@ -1,0 +1,26 @@
+# Graphical User Interface (GUI): Graphical Components: Icons/Buttons/Menus
+# Command-line Interface (CLI): Text-Based: Manage and Interact with Computer Files
+
+# Make directory
+mkdir [directory_name]
+
+# Remove directory
+rmdir [directory_name]
+
+# Print/Present working directory
+pwd
+
+# List command
+ls
+
+# Change directory
+cd [directory_path]
+
+# Go back one directory
+cd ..
+
+# Create files
+touch [file_name]
+
+# Remove files
+rm [file_name]

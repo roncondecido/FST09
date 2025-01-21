@@ -33,3 +33,21 @@ git branch "branch-name"
 
 - Switch to a different branch
 git switch "branch-name"
+
+- Merging
+git merge "branch-name
+
+- Delete a branch"
+git branch -d "branch-name"
+
+- Connect the local repository to the remote repository.
+git remote add origin [repository-url]
+
+- Rename the master to main
+git branch -M main
+
+- Initialy created a push
+git push -u origin main
+
+- Push the code from local to remote.
+git push

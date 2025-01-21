@@ -1,0 +1,24 @@
+- Configuring Git
+git config --global user.name "username"
+git config --global user.email "email"
+git config user.name
+git config user.email
+
+- Legends
+U - untracked
+A - Added
+M - modified
+
+- Check the status of all the files and folders.
+git status
+
+- Git 3 Stage Architecture
+1. Working Area
+2. Staging Area
+3. Commit Stage
+
+- Add all the modified files in the staging area.
+git add .
+
+- Create a commit
+git commit -m "This is the description."

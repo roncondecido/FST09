@@ -1,0 +1,52 @@
+/* Element Selector */
+span {
+  color: #faf0ca;
+  background-color: #0d3b66;
+}
+
+/* Class Selector */
+.intro-paragraphs {
+  color: #ff5858;
+  background-color: #ffc8c8;
+}
+
+/* ID Selector */
+#main-heading {
+  font-weight: bolder;
+  text-align: center;
+  color: #e07a5f;
+  background-color: #f4f1de;
+}
+
+/* Universal Selector */
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Grouping Selector */
+h1,
+h2,
+.about-content {
+  font-style: italic;
+  text-align: center;
+  text-decoration: underline #083d77 wavy 4px;
+}
+
+/* Descendant Selector */
+/* Descendant Selector */
+.article-container p {
+  text-align: center;
+  letter-spacing: 4px;
+  color: #595cff;
+  background-color: #c6f8ff;
+}
+
+/* Pseudo-classes */
+a:hover {
+  color: #f9dec9;
+  background-color: #3a405a;
+}
+
+a:active {
+  background-color: #ff4000;
+}

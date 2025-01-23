@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Three Ways</title>
+    <!-- Internal Styling -->
+    <style>
+      /* ID - Add # as the prefix */
+      /* {} - Declaration Block */
+      #internal-styling {
+        color: red;
+        font-size: 20px;
+      }
+    </style>
+
+    <!-- External Styling -->
+    <link rel="stylesheet" href="1-three-ways.css" />
+  </head>
+  <body>
+    <!-- Syntax: delaration => property:value; -->
+    <h1>Cascading Style Sheets (CSS)</h1>
+    <p style="color: green; font-size: 18px">
+      This is a paragraph with inline styling.
+    </p>
+
+    <!-- Internal Styling -->
+    <p id="internal-styling">This is a paragraph with internal styling.</p>
+
+    <!-- External Styling -->
+    <p id="external-styling">This is a paragraph with external styling.</p>
+  </body>
+</html>

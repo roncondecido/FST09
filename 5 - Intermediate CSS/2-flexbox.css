@@ -1,0 +1,29 @@
+.flexContainer {
+  display: flex;
+  /* flex-direction: column; original */
+  flex-direction: row;
+
+  /* justify-content: align the elements using the main axis */
+  justify-content: flex-end;
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  justify-content: center;
+  justify-content: flex-start; /* default */
+  /* align-items: align the elements using the cross axis */
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+  align-items: stretch; /* default */
+
+  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
+  flex-wrap: nowrap;
+}
+
+.flexItem1 {
+  flex-grow: 0; /* Will not grow */
+  flex-grow: 1; /* Willing to grow */
+  flex-shrink: 1; /* Willing to shrink */
+  flex-shrink: 0; /* Will not shrink */
+}

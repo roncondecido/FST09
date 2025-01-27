@@ -1,0 +1,41 @@
+.gridContainer {
+  display: grid;
+  /* width for each column. */
+  grid-template-columns: 200px 200px 200px 200px;
+  /* height for each row. */
+  grid-template-rows: 200px 200px 200px 200px;
+  border: 2px solid black;
+
+  /* Fractional Units */
+  grid-template-columns: 1fr 1fr 1fr;
+
+  /* repeat(repeat_count, unit_of_measurement) */
+  grid-template-columns: repeat(6, 1fr);
+}
+
+/* Media Queries use Breakpoints */
+/* 
+    Mobile Devices: Less than 481px
+    iPads, Tablets: 481px - 768px
+    Small Screens, Laptops: 769px - 1024px
+    Desktops, Large Screens: 1025px - 1200px
+    Extra Large Screens, TV: 1201px and greater
+*/
+
+@media screen and (min-width: 1025px) {
+  .gridContainer {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .gridContainer {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+  }
+}

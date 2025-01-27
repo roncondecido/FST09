@@ -1,0 +1,38 @@
+#relative {
+  /* Relative to it's original position. */
+  background-color: #0d3b66;
+  color: #faf0ca;
+  position: relative;
+  /* top, left, right, bottom */
+  top: 30px;
+  left: 30px;
+}
+
+#absolute {
+  background-color: #42047e;
+  color: #07f49e;
+  position: absolute;
+
+  /* top, left, right, bottom */
+  /* Parent position stats: relative to the viewwport. */
+  /* Parent position not static: relative to the parent. */
+  top: 0px;
+  right: 0px;
+}
+
+#fixed {
+  background-color: #e81cff;
+  color: #40c9ff;
+  position: fixed;
+  /* top, left, right, bottom */
+  bottom: 0px;
+  right: 0px;
+}
+
+#sticky {
+  background-color: #e07a5f;
+  color: #f4f1de;
+  position: sticky;
+  /* top, left, right, bottom */
+  top: 0px;
+}

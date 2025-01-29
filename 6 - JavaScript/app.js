@@ -1,36 +1,31 @@
-// Control Flow Structures
-// 1. Conditional Statements
-// Allow us to execute different blocks of code based on a condition.
-// if, else if, else statement
-// {} - Code Block
-// () - Conditional Block
-let temperature = 22;
-if (temperature < 0) {
-  console.log("It's freezing!");
-  console.log("Stay indoors and drink hot chocolate.");
-} else if (temperature >= 0 && temperature <= 19) {
-  // Range: 0 - 19
-  console.log("It's cool outside.");
-} else {
-  console.log("It's warm outside.");
-}
+// Arrays
+let fruits = ["Apple", "Banana", "Orange", "Avocado"];
+console.log("Fruits:", fruits);
+console.log("Length of Fruits:", fruits.length);
+console.log("First Fruit:", fruits[0]);
+console.log("Last Fruit:", fruits[3]);
+console.log("Last Fruit:", fruits[fruits.length - 1]);
 
-// 2. Looping Statements
-// Repeatedly execute a blocki of code until a specific condition is not met.
+// Update Elements
+fruits[0] = "Mango";
+console.log("Fruits:", fruits);
 
-// For Loop
-/*
-    1st: Variable Initialization.
-    2nd: Condition Expression.
-    3rd: Increment/Decrement.
-*/
-for (let i = 1; i <= 3; i++) {
-  console.log("For Loop Count:", i);
-}
+// property: an information about the object.
+// methods: function that belongs to an object.
+// Add Element
+// .push(): add an element at the end of the array
+fruits.push("Apple", "Grapes");
+console.log("Fruits:", fruits);
 
-// While Loop
-let count = 1;
-while (count <= 3) {
-  console.log("While Loop Count:", count);
-  count++;
-}
+// .pop(): delete an element at the end of the array
+let deletedFruit = fruits.pop();
+console.log("Deleted Fruit:", deletedFruit);
+console.log("Fruits:", fruits);
+
+// .includes(): check if an element exists
+// Return: either true or false
+console.log("Is Orange inside of fruits:", fruits.includes("Orange"));
+
+fruits.forEach(function (fruit) {
+  console.log("Fruit:", fruit);
+});
